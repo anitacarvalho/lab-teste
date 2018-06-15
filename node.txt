@@ -10,7 +10,7 @@ echo "" > server.js
 node server.js
 
 //num browser
-escrever na barra de endereço
+escrever na barra de endereï¿½o
 http://localhost:3000/
 
 
@@ -28,10 +28,29 @@ pwd
 ver caminho total da pasta
 
 
-templetes
+templates
 
 install modulo hbs
 https://handlebarsjs.com/
 
+GIT
 
+git init
+criar .gitignore
 
+Para guardar as versÃµes:
+git add .
+git commit -m "mensagem"
+
+git bash
+gerar um par de chaves
+ssh-keygen -t rsa -b 4096 -C '9160081@esmad.ipp.pt'
+
+verificar
+ls -la ~/.ssh/
+
+adicionar o a chaves ao agente ssh
+eval "$(ssh-agent -s)"
+ssh-add
+
+git push
